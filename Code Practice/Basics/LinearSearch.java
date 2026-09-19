@@ -1,0 +1,20 @@
+public class LinearSearch{
+
+    public static int linearSearch(int numbers[], int key){
+        for(int i = 0; i < numbers.length; i++){
+            System.out.println(i);
+            if(numbers[i]==key){
+                
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    public static void main (String[] args){
+        int numbers[]={1,2,3,4,5};
+        int key = 3;
+        int index = linearSearch(numbers, key);
+        System.out.println(index);
+    }
+}
