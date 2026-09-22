@@ -39,6 +39,6 @@ public class TrappingRainWater{
         int height[] = {4,2,0,6,3,2,5};
         int trappedWater = trappedRainWater(height);
 
-        System.out.println(trappedWater);
+        System.out.println("trappedWater is: " +trappedWater);
     }
 }
