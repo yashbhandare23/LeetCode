@@ -34,9 +34,14 @@ public class BubbleSort{
         int arr[] = {5,4,1,3,2};
         bubbleSort(arr);
         System.out.print("{ ");
-        for(int i=0; i<arr.length; i++){
-            System.out.print(arr[i]+", ");
+
+        for(int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i]);
+
+            if(i < arr.length - 1) {
+                System.out.print(", ");
+            }
         }
-        System.out.print("}");
+        System.out.print(" }");
     }
 }
