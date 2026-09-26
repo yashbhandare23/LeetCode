@@ -1,0 +1,14 @@
+{
+    "editor.fontSize": 15,
+    "workbench.statusBar.visible": false,
+    "editor.inlineSuggest.enabled": false,
+    "terminal.integrated.initialHint": false,
+
+    "markdown.editor.updateLinksOnPaste.enabled": false,
+    "chat.pasteAsAttachmentThreshold": 99999999,
+
+    "editor.pasteAs.enabled": false,
+    "typescript.updateImportsOnPaste.enabled": false,
+
+    "java.autobuild.enabled": false
+}
